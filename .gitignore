@@ -1,0 +1,18 @@
+.nextflow*
+work/
+data/
+results/
+.DS_Store
+testing/
+testing*
+*.pyc
+null/
+.lineage/
+
+# Local run outputs / test fixtures - never commit real sample data or paths
+captnseq_test/
+output_dir*/
+samplesheet_converted.csv
+*.singularity/
+singularity/
+PROGRESS.md
